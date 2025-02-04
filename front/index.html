@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Ad</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        .ad-container {
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 200px;
+            margin: auto;
+        }
+        .ad-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .ad-header h1 {
+            font-size: 1.5em;
+            margin: 0;
+        }
+        .ad-header .price {
+            font-size: 1.5em;
+            color: green;
+        }
+
+        .slider {
+            position: relative;
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+            overflow: hidden;
+            border-radius: 8px;
+        }
+        .slider img {
+            width: 100%;
+            display: none;
+        }
+        .slider img.active {
+            display: block;
+        }
+        .slider .controls {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+        }
+        .slider button {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 50%;
+        }
+        .slider button:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <div class="ad-container">
+        <div class="ad-header">
+            <h1>דירה בנתניה</h1>
+            <span class="price">₪2800</span>
+        </div>
+        <div class="details">
+            <p><strong>אזור:</strong> אזור נתניה והסביבה</p>
+            <p><strong>שכונה:</strong> נאות הרצל</p>
+            <p><strong>רחוב:</strong> דוד פרישמן</p>
+            <p><strong>מספר בית:</strong> 9</p>
+            <p><strong>קומה:</strong> 2</p>
+            <p><strong>סוג הנכס:</strong> דירה</p>
+            <p><strong>מספר חדרים:</strong> 1</p>
+            <p><strong>מ"ר:</strong> 20</p>
+            <p><strong>קואורדינטות:</strong>
+                <a href="https://www.google.com/maps?q=32.33135,34.869672" target="_blank">
+                    32.33135, 34.869672
+                </a>
+            </p>
+        </div>
+        <div class="slider">
+            <img src="https://img.yad2.co.il/Pic/202411/05/2_2/o/y2_1_03983_20241105224516.jpeg" alt="דירה" class="active">
+            <img src="https://img.yad2.co.il/Pic/202411/05/2_2/o/y2_2_06223_20241105224522.jpeg" alt="דירה">
+            <img src="https://img.yad2.co.il/Pic/202411/27/2_2/o/y2_3_07238_20241127125514.jpeg" alt="דירה">
+            <img src="https://img.yad2.co.il/Pic/202411/27/2_2/o/y2_4_07349_20241127125518.jpeg" alt="דירה">
+            <img src="https://img.yad2.co.il/Pic/202411/27/2_2/o/y2_5_07045_20241127125522.jpeg" alt="דירה">
+            <div class="controls">
+                <button id="prev">‹</button>
+                <button id="next">›</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const images = document.querySelectorAll('.slider img');
+        const prevButton = document.getElementById('prev');
+        const nextButton = document.getElementById('next');
+        let currentIndex = 0;
+
+        function showImage(index) {
+            images.forEach((img, i) => {
+                img.classList.toggle('active', i === index);
+            });
+        }
+
+        prevButton.addEventListener('click', () => {
+            currentIndex = (currentIndex === 0) ? images.length - 1 : currentIndex - 1;
+            showImage(currentIndex);
+        });
+
+        nextButton.addEventListener('click', () => {
+            currentIndex = (currentIndex === images.length - 1) ? 0 : currentIndex + 1;
+            showImage(currentIndex);
+        });
+    </script>
+</body>
+</html>

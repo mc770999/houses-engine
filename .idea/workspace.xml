@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ddd37994-6b20-4842-b07a-60c976f13baa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/yad2all_engine.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/models/city_page_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/models/filter_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/models/min_max_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/models/property_group_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/rent/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/rent/rent_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/sale/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/sale/sale_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/20_best_cities.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/api_assets.json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/cities.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/cities.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/natanya_2025-01-02.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/natanya_rent_json.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/natatnya_2025-01-02.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/rent_json_explain.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/קודי ישובים.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/db/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/db/mongo_db/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/db/mongo_db/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/db/mongo_db/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/db/mongo_db/models/apartment_ad_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/db/mongo_db/models/city_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/db/mongo_db/repository/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/db/mongo_db/repository/cities_repository.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/load_data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/load_data/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/city_page_request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routers/sale_rout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/service/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/service/api_service/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/service/api_service/sale_api_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/service/mongo_service/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/service/mongo_service/cities_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/service/mongo_service/history_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/service/mongo_service/neighborhood_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/service/mongo_service/sale_houses_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/service/sale_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/add_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/algo_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/api_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/city_page_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/json_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/xml_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2qz9bvvtph6ybtBW1yo7D34AM4s" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.__init__.executor": "Run",
+    "Python.algo_util.executor": "Run",
+    "Python.apartment_ad_model.executor": "Run",
+    "Python.api_repository.executor": "Run",
+    "Python.cities_repository.executor": "Run",
+    "Python.city_page_model.executor": "Run",
+    "Python.client.executor": "Run",
+    "Python.filter_model.executor": "Run",
+    "Python.min_max_model.executor": "Run",
+    "Python.property_group_model.executor": "Run",
+    "Python.sale_api.executor": "Run",
+    "Python.sale_service.executor": "Run",
+    "Python.xml_util.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/770mc/PycharmProjects/yad2all_engine/app/api/rent"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\770mc\PycharmProjects\yad2all_engine\app\api\rent" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\770mc\PycharmProjects\yad2all_engine\app\service\api_service" />
+      <recent name="C:\Users\770mc\PycharmProjects\yad2all_engine\app\service\mongo_service" />
+      <recent name="C:\Users\770mc\PycharmProjects\yad2all_engine\app\service" />
+      <recent name="C:\Users\770mc\PycharmProjects\yad2all_engine" />
+      <recent name="C:\Users\770mc\PycharmProjects\yad2all_engine\app\assets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.cities_repository">
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="yad2all_engine" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/service/api_service" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/service/api_service/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="algo_util" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="yad2all_engine" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/utils/algo_util.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cities_repository" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="yad2all_engine" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/db/mongo_db/repository" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/db/mongo_db/repository/cities_repository.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sale_api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="yad2all_engine" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/api/sale" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/api/sale/sale_api.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sale_api_service" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="yad2all_engine" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/service/api_service" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\770mc\PycharmProjects\yad2all_engine\app\service\api_service\sale_api_service.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.cities_repository" />
+        <item itemvalue="Python.sale_api_service" />
+        <item itemvalue="Python.algo_util" />
+        <item itemvalue="Python.__init__" />
+        <item itemvalue="Python.sale_api" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5a2391486177-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13763.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ddd37994-6b20-4842-b07a-60c976f13baa" name="Changes" comment="" />
+      <created>1735654611974</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1735654611974</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/api/models/filter_model.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/service/api_service/sale_api_service.py</url>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fully_updated_app/app/api/models/min_max_model.py</url>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
