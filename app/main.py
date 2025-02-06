@@ -1,9 +1,6 @@
 from fastapi import FastAPI
 
 from app.routers.sale_rout import sale_router
-from app.utils.json_util import write_data_on_json
-from app.utils.api_util import get_yad2_url_rent, get_yad2_url_sale
-import numpy as np
 
 app = FastAPI()
 

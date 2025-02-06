@@ -1,26 +1,22 @@
-from dataclasses import asdict
-
-from fastapi import APIRouter
-from fastapi.responses import JSONResponse
-from fastapi import status
-from app.api.models.city_page_model import CityPage
+from fastapi import APIRouter, HTTPException, status
+import logging
+from app.service.yad2_sale_service.sale_service import update_ads_in_db_from_api
+from app.models.city_model import City
 
 sale_router = APIRouter()
 
-
-@sale_router.post("/city_page/", tags=["users"])
-async def get_by_router_city_page(city_page: CityPage):
+@sale_router.post("/sale-ad", status_code=status.HTTP_200_OK)
+def create_sale_ad(request: City):
     try:
-        return JSONResponse(content=asdict(city_page), status_code=status.HTTP_200_OK)
+        # Trigger the service function with the provided city.
+        result = update_ads_in_db_from_api(request)
+        return {
+            "message": "Sale advertisement processed successfully.",
+            "data": result
+        }
     except Exception as e:
-        return JSONResponse(content={f"{e.__class__.__name__}":{str(e)}}, status_code=status.HTTP_400_BAD_REQUEST)
-
-
-@sale_router.get("/users/me", tags=["users"])
-async def read_user_me():
-    return {"username": "fakecurrentuser"}
-
-
-@sale_router.get("/users/{username}", tags=["users"])
-async def read_user(username: str):
-    return {"username": username}
+        logging.exception("Error processing sale advertisement")
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"An error occurred: {str(e)}"
+        )
